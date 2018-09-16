@@ -164,7 +164,7 @@ def loopOverCamera(loops):
 
 	# keep looping
 	while True:
-		loops = loops+1	  # Increase d¿the loop counter
+		loops = loops+1	  # Increase the loop counter
 		frame = vs.read() # grab the current frame
 
 		# resize the frame, blur it, and convert it to the HSV
