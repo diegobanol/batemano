@@ -155,11 +155,11 @@ def loopOverCamera(loops):
 	circle4 = {'x': 200, 'y': 400, 'music': False, 'isInside': False, 'state': 1, 'altern': False, 'isPlaying': False}
 	circle5 = {'x': 440, 'y': 400, 'music': False, 'isInside': False, 'state': 1, 'altern': False, 'isPlaying': False}
 
-	# if a video path was not supplied, grab the reference
+	# Starts the video with reference
 	# to the webcam
 	vs = VideoStream(src=0).start()
 
-	# allow the camera or video file to warm up
+	# allow the camera to warm up
 	time.sleep(2.0)
 
 	# keep looping
